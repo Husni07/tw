@@ -747,10 +747,6 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.ml-4 {
-  margin-left: 1rem;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -952,6 +948,10 @@ video {
 
 .transform-none {
   transform: none;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
 }
 
 .touch-auto {
@@ -1410,14 +1410,6 @@ video {
 
 .justify-items-stretch {
   justify-items: stretch;
-}
-
-.gap-10 {
-  gap: 2.5rem;
-}
-
-.gap-4 {
-  gap: 1rem;
 }
 
 .gap-3 {
@@ -2768,10 +2760,6 @@ video {
 
   .lg\:gap-4 {
     gap: 1rem;
-  }
-
-  .lg\:gap-10 {
-    gap: 2.5rem;
   }
 
   .lg\:px-8 {
