@@ -8,7 +8,8 @@ module.exports = {
       },
       colors:{
         'ungu':'#fb16ba',
-        'merah':'#e80505'
+        'merah':'#e80505',
+        'abu':'#161313'
       }
     },
   },
