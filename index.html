@@ -33,7 +33,7 @@
     />
   </head>
   <body class="font-Comic flex-col justify-center bg-[#000] text-white" oncopy="return false;">
-    <header class="bg-transparent backdrop-blur-md sticky w-full top-0">
+    <header class="bg-transparent backdrop-blur-md sticky w-full top-0 z-50">
       <div
         class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
       >
@@ -65,6 +65,7 @@
             <a href=""><span class="cursor-not-allowed">Achievements</span></a>
           </div>
         </div>
+
         <div class="md:hidden relative">
           <div class="flex items-center justify-between px-4 py-2">
             <button
@@ -75,35 +76,37 @@
             </button>
           </div>
 
-          <div class="hidden hide">
-            <ul class="flex flex-col w-16 px-2 absolute text-black bg-white rounded-md right-4">
-              <li
-                class="text-base font-bold w-50 underline underline-offset-4 hover:decoration-ungu hover:text-merah hover:ease-in-out hover:duration-500"
-              >
-                <a href="index.html"><span>Home</span></a>
-              </li>
-              <li
-                class="text-base font-bold w-50 underline underline-offset-4 hover:decoration-ungu hover:text-merah hover:ease-in-out hover:duration-500"
-              >
-                <a href="projects.html"><span>Projects</span></a>
-              </li>
-              <li
-                class="text-base font-bold w-50 underline underline-offset-4 hover:decoration-ungu hover:text-merah hover:ease-in-out hover:duration-500"
-              >
-                <a href=""><span class="cursor-not-allowed">About</span></a>
-              </li>
-              <!-- <li
-                class="text-base font-bold w-50 underline underline-offset-4 hover:decoration-ungu hover:text-merah hover:ease-in-out hover:duration-500"
-              >
-                <a href=""
-                  ><span class="cursor-not-allowed">Achievements</span></a
-                >
-              </li> -->
-            </ul>
-          </div>
+
         </div>
       </div>
+      <div class="hide hidden">
+        <ul class="flex flex-col w-full px-10 py-2 absolute bg-gradient-to-tr from-black to-abu">
+          <li
+            class="text-base font-bold w-50 underline underline-offset-4 hover:decoration-ungu hover:text-merah hover:ease-in-out hover:duration-500"
+          >
+            <a href="index.html"><span>Home</span></a>
+          </li>
+          <li
+            class="text-base font-bold w-50 underline underline-offset-4 hover:decoration-ungu hover:text-merah hover:ease-in-out hover:duration-500"
+          >
+            <a href="projects.html"><span>Projects</span></a>
+          </li>
+          <li
+            class="text-base font-bold w-50 underline underline-offset-4 hover:decoration-ungu hover:text-merah hover:ease-in-out hover:duration-500"
+          >
+            <a href=""><span class="cursor-not-allowed">About</span></a>
+          </li>
+          <li
+            class="text-base font-bold w-50 underline underline-offset-4 hover:decoration-ungu hover:text-merah hover:ease-in-out hover:duration-500"
+          >
+            <a href=""
+              ><span class="cursor-not-allowed">Achievements</span></a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
+    
     <main class="lg:flex lg:gap-4 lg:mx-10 lg:px-8">
       <div class="lg:w-1/3">
         <img
